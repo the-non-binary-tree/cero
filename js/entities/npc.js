@@ -46,32 +46,9 @@ game.NPCEntity = me.Entity.extend({
 
         return (this._super(me.Entity, "update", [dt]) || this.body.vel.x !== 0 || this.body.vel.y !== 0);
     },
-
-    onCollision : function (response) {
-        // when enemy is under player
-        if (this.alive && (response.overlapV.y > 0) && response.a.body.falling) {
-            this.alive = false;
-            this.body.setCollisionMask(me.collision.types.NO_OBJECT);
-
-            this.renderable.setCurrentAnimation("dead");
-
-            // delete once anim over
-            var self = this;
-            this.renderable.flicker(750, function () {
-                me.game.world.removeChild(self);
-            });
-            
-            me.audio.play("enemykill", false);
-
-            game.data.score += 15;
-        }
-
-        return false;
-    }
-
 });
 
-// spikey slime
+// spikey teeth person
 game.SlimeEnemyEntity = game.NPCEntity.extend({
     init: function (x, y, settings) {
         this._super(game.NPCEntity, "init", [x, y, settings]);
@@ -102,29 +79,5 @@ game.SlimeEnemyEntity = game.NPCEntity.extend({
         // set default move & position
         this.renderable.setCurrentAnimation("walk");
         this.anchorPoint.set(0.2, -0.4);
-    }
-});
-
-// flying ghost 
-game.FlyEnemyEntity = game.NPCEntity.extend({
-    init: function (x, y, settings) {
-        this._super(game.NPCEntity, "init", [x, y, settings]);
-
-        this.renderable = game.texture.createAnimationFromName([
-            "enemies/ghost_up", "enemies/ghost_down", "enemies/ghost_dead"
-        ]);
-
-        if (settings.animationspeed) {
-            this.renderable.animationspeed = settings.animationspeed;
-        }
-
-        // walking anim
-        this.renderable.addAnimation ("walk", ["enemies/ghost_up", "enemies/ghost_down"]);
-        // dead anim
-        this.renderable.addAnimation ("dead", ["enemies/ghost_dead"]);
-
-        // set default anim and pos
-        this.renderable.setCurrentAnimation("walk");
-        this.anchorPoint.set(0.5, 1.0);
     }
 });
