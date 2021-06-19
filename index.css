@@ -113,7 +113,7 @@ button {
   left: 0;
   margin: 0;
   background-color: black;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -124,6 +124,20 @@ button {
 #screen canvas {
   margin: 0px;
   z-index: 0;
+}
+
+#menu-btn {
+  z-index: 30;
+  position: absolute;
+  top: 20px;
+  left: calc(100vw - 90px);
+  left: 50vw;
+  font-size: 40px;
+  background-color: transparent;
+  opacity: 40%;
+}
+#menu-btn:hover {
+  opacity: 100%;
 }
 
 #speech-container {
@@ -159,7 +173,6 @@ button {
   margin-bottom: 10px;
   border-radius: 5px;
   text-transform: uppercase;
-  text-decoration: line-through;
 }
 
 #ok-btn {

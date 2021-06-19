@@ -5,6 +5,12 @@ game.PathEnemyEntity = me.Entity.extend({
 
         this._super(me.Entity, "init", [x, y , settings]);
 
+        // adjust position
+        x = this.pos.x;
+        this.startX = x;
+        this.endX   = x + width - settings.framewidth;
+        this.pos.x  = x + width - settings.framewidth;
+
         // mvmt speed
         this.body.force.set(settings.velX || 1, settings.velY || 0);
         this.body.setMaxVelocity(settings.velX || 1, settings.velY || 0);
@@ -13,12 +19,6 @@ game.PathEnemyEntity = me.Entity.extend({
         settings.width = settings.framewidth;
         settings.height = settings.frameheight;
         settings.shapes[0] = new me.Rect(0, 0, settings.framewidth, settings.frameheight);
-
-        // adjust position
-        x = this.pos.x;
-        this.startX = x;
-        this.endX   = x + width - settings.framewidth;
-        this.pos.x  = x + width - settings.framewidth;
 
         this.body.gravityScale = 0;
         this.walkLeft = false;
@@ -113,10 +113,6 @@ game.FlyEnemyEntity = game.PathEnemyEntity.extend({
         this.renderable = game.texture.createAnimationFromName([
             "ghost_up.png", "ghost_down.png", "ghost_dead.png"
         ]);
-
-        if (settings.animationspeed) {
-            this.renderable.animationspeed = settings.animationspeed;
-        }
 
         // walking anim
         this.renderable.addAnimation ("walk", ["ghost_up.png", "ghost_down.png"]);

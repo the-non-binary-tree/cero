@@ -10,7 +10,11 @@ var game = {
         messageNum: 0,
         messages: [
             {
-                message: 'Sometimes you look out the window and you see bushes. Bushes, yes, bushes. But why? Why are there bushes outside? Ask yourself the most important question that you\'ve been subconciously avoiding for so, so long. Why, just WHY are there bushes outside of your house? Only then can you see the truth within. - Jimmy B. Crowford',
+                message: '\"It is not doubt but certainty that drives you mad.\" </br> - Nietzche',
+                name: '',
+            },
+            {
+                message: 'Double jump.',
                 name: '',
             },
             {

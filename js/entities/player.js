@@ -2,13 +2,12 @@ game.PlayerEntity = me.Entity.extend({
     init: function(x, y, settings) {
         this._super(me.Entity, "init", [x, y , settings]);
         this.alwaysUpdate = true;
+        this.dying = false;
+        this.mutipleJump = 1;
 
         // walking & jumping speed
         this.body.setMaxVelocity(5, 15);
         this.body.setFriction(0.4, 0);
-
-        this.dying = false;
-        this.mutipleJump = 1;
 
         // scrollable screen
         me.game.viewport.follow(this, me.game.viewport.AXIS.BOTH, 0.1);
@@ -56,15 +55,13 @@ game.PlayerEntity = me.Entity.extend({
             this.body.jumping = true;
             if (this.multipleJump <= 2) {
                 this.body.force.y = -this.body.maxVel.y * this.multipleJump++;
-                me.audio.stop("jump");
-                me.audio.play("jump", false);
             }
         }
         else {
 
             this.body.force.y = 0;
 
-            // reset mjump
+            // reset double jump
             if (!this.body.falling && !this.body.jumping) {
                 this.multipleJump = 1;
             }
@@ -87,7 +84,7 @@ game.PlayerEntity = me.Entity.extend({
             return true;
         }
 
-        // handle collisions against other shapes
+        // all other objects
         me.collision.check(this);
         if (this.body.vel.x !== 0 || this.body.vel.y !== 0 ||
             (this.renderable && this.renderable.isFlickering())
@@ -116,14 +113,6 @@ game.PlayerEntity = me.Entity.extend({
                     }
                     // pass thru
                     return false;
-                }
-
-                // custom collision response for slopes
-                else if (other.type === "slope") {
-                    // adjust response upward
-                    response.overlapV.y = Math.abs(response.overlap);
-                    response.overlapV.x = 0;
-                    return true;
                 }
                 break;
 

@@ -13,8 +13,8 @@ game.PlayScreen = me.Stage.extend({
         me.game.world.addChild(this.HUD);
 
         // music play
-        me.audio.playTrack("dst-gameforest");
-        me.audio./*un*/muteAll();
+        me.audio.playTrack("ForestWalk");
+        me.audio.unmuteAll();
     },
 
     onDestroyEvent: function() {
@@ -28,6 +28,6 @@ game.PlayScreen = me.Stage.extend({
         }
 
         // stop some music
-        me.audio.stopTrack("dst-gameforest");
+        me.audio.stopTrack("ForestWalk");
     }
 });

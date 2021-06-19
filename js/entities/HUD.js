@@ -1,4 +1,3 @@
-// DC
 // ui el stuff
 game.HUD = game.HUD || {};
 
@@ -15,7 +14,6 @@ game.HUD.UIContainer = me.Container.extend({
         if (!me.device.isMobile) {
             this.addChild(new game.HUD.FSControl(20, 56));
         }
-        this.addChild(new game.HUD.ScoreItem(-10, -10));
         this.addChild(new game.HUD.AudioControl(70, 55));
     }
 });
@@ -102,48 +100,3 @@ game.HUD.AudioControl = me.GUI_Object.extend({
         return false;
     }
 });
-
-// score display
-game.HUD.ScoreItem = me.Renderable.extend({
-    //constructor
-    init: function(x, y) {
-        this.relative = new me.Vector2d(x, y);
-        this._super(me.Renderable, "init", [
-            me.game.viewport.width + x,
-            me.game.viewport.height + y,
-            10,
-            10
-        ]);
-
-        this.font = new me.BitmapText(0, 0, {
-            font : "PressStart2P",
-            textAlign : "right",
-            textBaseline : "bottom"
-        });
-
-        // local copy of global score
-        this.score = -1;
-
-        // recalculate the object position if the canvas is resize
-        me.event.subscribe(me.event.CANVAS_ONRESIZE, (function(w, h){
-            this.pos.set(w, h, 0).add(this.relative);
-        }).bind(this));
-    },
-
-    //update function
-    update : function (/*dt*/) {
-        // we don't draw anything fancy here, so just
-        // return true if the score has been updated
-        if (this.score !== game.data.score) {
-            this.score = game.data.score
-            return true
-        }
-        return false
-    },
-
-    //draw the score
-    draw : function (renderer) {
-        this.font.draw(renderer, game.data.stress, this.pos.x, this.pos.y)
-    }
-
-})

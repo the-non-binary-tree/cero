@@ -25,7 +25,7 @@ game.resources = [
 
 
     // Background music
-    { name: "dst-gameforest",  type: "audio", src: "data/bgm/" },
+    { name: "ForestWalk",  type: "audio", src: "data/bgm/" },
 
     // Sound effects
     { name: "cling",           type: "audio",  src: "data/sfx/" },
