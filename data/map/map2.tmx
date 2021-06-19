@@ -21,7 +21,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff9300" id="15" name="NPCReact">
-  <object id="51" name="NPCReactEntity" x="984.344" y="464.982" width="36.1507" height="515.634">
+  <object id="51" name="NPCReactEntity" x="801.638" y="469.231" width="36.1507" height="515.634">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
@@ -82,6 +82,6 @@
   <object id="42" x="1442.67" y="573.218" width="70" height="70"/>
   <object id="45" x="1679.89" y="631.902" width="70" height="70"/>
   <object id="46" x="1752.23" y="561.33" width="70" height="70"/>
-  <object id="52" x="1112.22" y="130.756" width="76.4327" height="162.196"/>
+  <object id="52" x="1118.6" y="842.462" width="67.9347" height="138.827"/>
  </objectgroup>
 </map>

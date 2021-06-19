@@ -127,14 +127,20 @@ button {
 }
 
 #speech-container {
-  width: 30vw;
+  position: absolute;
+  top: 5%;
+  left: calc(32vw);
+  transition: 1s ease;
+  z-index: 20;
+  opacity: 0%;
+}
+
+#speech-box {
+  width: 36vw;
   min-width: 200px;
   height: fit-content;
   padding: 30px 30px 20px 30px;
   min-height: 100px;
-  position: absolute;
-  top: 5%;
-  left: calc(35vw);
   background-color: rgb(0, 0, 0);
   color: white;
   font-size: 18px;
@@ -142,9 +148,18 @@ button {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  transition: 1s ease;
-  z-index: 20;
-  opacity: 0%;
+}
+
+#npc-name {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  padding: 4px 10px 0px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: line-through;
 }
 
 #ok-btn {

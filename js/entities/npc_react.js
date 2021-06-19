@@ -13,7 +13,10 @@ game.NPCReactEntity = me.Entity.extend({
 
     onCollision : function () {
         let text = document.querySelector('#text-container');
-        text.textContent = game.data.messages[game.data.messageNum];
+        text.textContent = game.data.messages[game.data.messageNum].message;
+        
+        let name = document.querySelector('#npc-name');
+        name.textContent = game.data.messages[game.data.messageNum].name;
 
         let speechBox = document.querySelector('#speech-container');
         speechBox.classList.add('fadeIn');

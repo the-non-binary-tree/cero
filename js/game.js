@@ -9,16 +9,34 @@ var game = {
         health: 0,
         messageNum: 0,
         messages: [
-            'Sometimes you look out the window and you see bushes. Bushes, yes, bushes. But why? Why are there bushes outside? Ask yourself the most important question that you\'ve been subconciously avoiding for so, so long. Why, just WHY are there bushes outside of your house? Only then can you see the truth within. - Jimmy B. Crowford',
-            'This is where you hand over all your money.',
-            'We don\'t negotiate with terrorists.',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
+            {
+                message: 'Sometimes you look out the window and you see bushes. Bushes, yes, bushes. But why? Why are there bushes outside? Ask yourself the most important question that you\'ve been subconciously avoiding for so, so long. Why, just WHY are there bushes outside of your house? Only then can you see the truth within. - Jimmy B. Crowford',
+                name: '',
+            },
+            {
+                message: 'This is where you hand over all your money.',
+                name: 'Teethman',
+            },
+            {
+                message: 'We don\'t negotiate with terrorists.',
+                name: '',
+            },
+            {
+                message: '',
+                name: '',
+            },
+            {
+                message: '',
+                name: '',
+            },
+            {
+                message: '',
+                name: '',
+            },
+            {
+                message: '',
+                name: '',
+            },
         ],
     },
 
