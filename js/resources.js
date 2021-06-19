@@ -11,23 +11,23 @@ game.resources = [
     { name: "white_bg",      type:"image",   src: "data/img/white_background.png" },
     { name: "clouds",          type:"image",   src: "data/img/clouds.png" },
 
-    // Maps.
+    // Maps
     { name: "map1",            type: "tmx",    src: "data/map/map1.tmx" },
     { name: "map2",            type: "tmx",    src: "data/map/map2.tmx" },
     { name: "map3",            type: "tmx",    src: "data/map/map3.tmx" },
 
 
-    // Tilesets.
+    // Tilesets
     { name: "tileset",         type: "tsx",    src: "data/map/tileset.json" },
     { name: "tileset1",         type: "tsx",    src: "data/map/tileset1.tsx" },
     { name: "tileset2",         type: "tsx",    src: "data/map/tileset2.tsx" },
     { name: "tileset3",         type: "tsx",    src: "data/map/tileset3.json" },
 
 
-    // Background music.
+    // Background music
     { name: "dst-gameforest",  type: "audio", src: "data/bgm/" },
 
-    // Sound effects.
+    // Sound effects
     { name: "cling",           type: "audio",  src: "data/sfx/" },
     { name: "die",             type: "audio",  src: "data/sfx/" },
     { name: "enemykill",       type: "audio",  src: "data/sfx/" },

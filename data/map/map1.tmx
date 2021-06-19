@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="17" nextobjectid="55">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="17" nextobjectid="56">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -84,8 +84,17 @@
   <object id="50" x="2660.58" y="526.034" width="70" height="61.8774"/>
   <object id="51" x="2730.73" y="455.881" width="70" height="61.8774"/>
  </objectgroup>
- <objectgroup id="14" name="NPC">
-  <object id="54" name="TeethEntity" x="559.422" y="923.876" width="124.996" height="35">
+ <objectgroup color="#ff9300" id="14" name="NPC">
+  <object id="54" name="NPCReactEntity" x="506.746" y="816.825" width="7.74876" height="152.247">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="35"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+  <object id="55" name="NPCReactEntity" x="701.308" y="819.374" width="7.74876" height="152.247">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
