@@ -4,9 +4,7 @@
         <key>fileFormatVersion</key>
         <int>4</int>
         <key>texturePackerVersion</key>
-        <string>4.5.0</string>
-        <key>fileName</key>
-        <string>/Users/obiot/Documents/GitHub/melonJS/examples/platformer/data/img/texture.tps</string>
+        <string>5.5.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -129,22 +127,6 @@
                 <uint>1</uint>
             </struct>
         </struct>
-        <key>andEngine</key>
-        <struct type="AndEngine">
-            <key>minFilter</key>
-            <enum type="AndEngine::MinFilter">Linear</enum>
-            <key>packageName</key>
-            <string>Texture</string>
-            <key>wrap</key>
-            <struct type="AndEngineWrap">
-                <key>s</key>
-                <enum type="AndEngineWrap::Wrap">Clamp</enum>
-                <key>t</key>
-                <enum type="AndEngineWrap::Wrap">Clamp</enum>
-            </struct>
-            <key>magFilter</key>
-            <enum type="AndEngine::MagFilter">MagLinear</enum>
-        </struct>
         <key>dataFileNames</key>
         <map type="GFileNameMap">
             <key>data</key>
@@ -204,85 +186,55 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">assets/UI/shadedDark01.png</key>
+            <key type="filename">assets/UI/grow.png</key>
+            <key type="filename">assets/UI/shrink.png</key>
+            <key type="filename">assets/UI/sound1.png</key>
+            <key type="filename">assets/UI/sound2.png</key>
+            <key type="filename">assets/UI/sound3.png</key>
+            <key type="filename">assets/UI/sound4.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>24,25,48,50</rect>
+                <rect>25,25,50,50</rect>
                 <key>scale9Paddings</key>
-                <rect>24,25,48,50</rect>
+                <rect>25,25,50,50</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/UI/shadedDark07.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,1</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>40,40,80,80</rect>
-                <key>scale9Paddings</key>
-                <rect>40,40,80,80</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">assets/UI/shadedDark13.png</key>
-            <key type="filename">assets/UI/shadedDark15.png</key>
-            <key type="filename">assets/UI/shadedDark30.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,1</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>12,12,24,24</rect>
-                <key>scale9Paddings</key>
-                <rect>12,12,24,24</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">assets/UI/shadedDark36.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,1</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>20,20,40,40</rect>
-                <key>scale9Paddings</key>
-                <rect>20,20,40,40</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">assets/character/walk0001.png</key>
-            <key type="filename">assets/character/walk0002.png</key>
-            <key type="filename">assets/character/walk0003.png</key>
-            <key type="filename">assets/character/walk0004.png</key>
-            <key type="filename">assets/character/walk0005.png</key>
-            <key type="filename">assets/character/walk0006.png</key>
-            <key type="filename">assets/character/walk0007.png</key>
-            <key type="filename">assets/character/walk0008.png</key>
-            <key type="filename">assets/character/walk0009.png</key>
-            <key type="filename">assets/character/walk0010.png</key>
-            <key type="filename">assets/character/walk0011.png</key>
             <key type="filename">assets/character/redSquare1.png</key>
-            <key type="filename">assets/character/sound1.png</key>
-            <key type="filename">assets/character/sound2.png</key>
-            <key type="filename">assets/character/sound3.png</key>
-            <key type="filename">assets/character/sound4.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
                 <rect>19,24,38,48</rect>
                 <key>scale9Paddings</key>
                 <rect>19,24,38,48</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">assets/character/redSquare2.png</key>
+            <key type="filename">assets/character/redSquare3.png</key>
+            <key type="filename">assets/character/redSquare4.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>75,75,150,150</rect>
+                <key>scale9Paddings</key>
+                <rect>75,75,150,150</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -290,6 +242,8 @@
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
@@ -299,18 +253,53 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/enemies/fly_dead.png</key>
-            <key type="filename">assets/enemies/fly_fly.png</key>
-            <key type="filename">assets/enemies/fly_normal.png</key>
+            <key type="filename">assets/enemies/ghost_dead.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>17,8,35,16</rect>
+                <rect>20,13,40,25</rect>
                 <key>scale9Paddings</key>
-                <rect>17,8,35,16</rect>
+                <rect>20,13,40,25</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">assets/enemies/ghost_down.png</key>
+            <key type="filename">assets/enemies/ghost_up.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>20,15,40,30</rect>
+                <key>scale9Paddings</key>
+                <rect>20,15,40,30</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">assets/enemies/slime1.png</key>
+            <key type="filename">assets/enemies/slime2.png</key>
+            <key type="filename">assets/enemies/slime3.png</key>
+            <key type="filename">assets/enemies/slime4.png</key>
+            <key type="filename">assets/enemies/slime5.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>14,20,27,40</rect>
+                <key>scale9Paddings</key>
+                <rect>14,20,27,40</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -318,6 +307,8 @@
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
@@ -327,29 +318,33 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/enemies/slime_normal.png</key>
+            <key type="filename">assets/npc/npc_react.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>11,7,22,14</rect>
+                <rect>3,3,5,5</rect>
                 <key>scale9Paddings</key>
-                <rect>11,7,22,14</rect>
+                <rect>3,3,5,5</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/enemies/slime_walk.png</key>
+            <key type="filename">assets/npc/teethman1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>11,7,22,13</rect>
+                <rect>23,40,45,80</rect>
                 <key>scale9Paddings</key>
-                <rect>11,7,22,13</rect>
+                <rect>23,40,45,80</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -360,6 +355,7 @@
             <filename>assets/enemies</filename>
             <filename>assets/UI</filename>
             <filename>assets/character</filename>
+            <filename>assets/npc</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

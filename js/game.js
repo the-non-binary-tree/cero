@@ -53,6 +53,7 @@ var game = {
         me.pool.register("SlimeEntity", game.SlimeEnemyEntity)
         me.pool.register("FlyEntity", game.FlyEnemyEntity)
         me.pool.register("CoinEntity", game.CoinEntity)
+        me.pool.register("TeethmanEntity", game.TeethmanEntity)
         me.pool.register("NPCReactEntity", game.NPCReactEntity)
 
         // load texture atlas file

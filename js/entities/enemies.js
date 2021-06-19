@@ -78,30 +78,30 @@ game.SlimeEnemyEntity = game.PathEnemyEntity.extend({
 
         // set renderable
         this.renderable = game.texture.createAnimationFromName([
-            "enemies/slime1", "enemies/slime2", "enemies/slime3",
-            "enemies/slime4", "enemies/slime5", "enemies/slime_dead",
+            "slime1.png", "slime2.png", "slime3.png",
+            "slime4.png", "slime5.png", "slime_dead.png",
         ]);
         if (settings.animationspeed) {
             this.renderable.animationspeed = settings.animationspeed;
         }
 
         // mvmt anim
-        this.renderable.addAnimation ("walk", [{ name: "enemies/slime1", delay: 300 }, 
-            { name: "enemies/slime2", delay: 100 }, { name: "enemies/slime3", delay: 100 }, 
-            { name: "enemies/slime4", delay: 100 }, { name: "enemies/slime5", delay: 400 },
-            { name: "enemies/slime4", delay: 200 }, { name: "enemies/slime5", delay: 600 }, 
-            { name: "enemies/slime4", delay: 50 }, { name: "enemies/slime3", delay: 50 }, 
-            { name: "enemies/slime2", delay: 50 }, 
-            { name: "enemies/slime1", delay: 300 }, { name: "enemies/slime2", delay: 300 }, 
-            { name: "enemies/slime1", delay: 300 }, { name: "enemies/slime2", delay: 300 }, 
-            { name: "enemies/slime1", delay: 300 }, { name: "enemies/slime2", delay: 300 }, 
-            { name: "enemies/slime1", delay: 300 }, { name: "enemies/slime2", delay: 300 }]);
+        this.renderable.addAnimation ("walk", [{ name: "slime1.png", delay: 300 }, 
+            { name: "slime2.png", delay: 100 }, { name: "slime3.png", delay: 100 }, 
+            { name: "slime4.png", delay: 100 }, { name: "slime5.png", delay: 400 },
+            { name: "slime4.png", delay: 200 }, { name: "slime5.png", delay: 600 }, 
+            { name: "slime4.png", delay: 50 }, { name: "slime3.png", delay: 50 }, 
+            { name: "slime2.png", delay: 50 }, 
+            { name: "slime1.png", delay: 300 }, { name: "slime2.png", delay: 300 }, 
+            { name: "slime1.png", delay: 300 }, { name: "slime2.png", delay: 300 }, 
+            { name: "slime1.png", delay: 300 }, { name: "slime2.png", delay: 300 }, 
+            { name: "slime1.png", delay: 300 }, { name: "slime2.png", delay: 300 }]);
         // dead anim
-        this.renderable.addAnimation ("dead", ["enemies/slime_dead"]);
+        this.renderable.addAnimation ("dead", ["slime_dead.png"]);
 
         // set default move & position
         this.renderable.setCurrentAnimation("walk");
-        this.anchorPoint.set(0.2, -0.4);
+        this.anchorPoint.set(0.2, 1);
     }
 });
 
@@ -111,7 +111,7 @@ game.FlyEnemyEntity = game.PathEnemyEntity.extend({
         this._super(game.PathEnemyEntity, "init", [x, y, settings]);
 
         this.renderable = game.texture.createAnimationFromName([
-            "enemies/ghost_up", "enemies/ghost_down", "enemies/ghost_dead"
+            "ghost_up.png", "ghost_down.png", "ghost_dead.png"
         ]);
 
         if (settings.animationspeed) {
@@ -119,9 +119,9 @@ game.FlyEnemyEntity = game.PathEnemyEntity.extend({
         }
 
         // walking anim
-        this.renderable.addAnimation ("walk", ["enemies/ghost_up", "enemies/ghost_down"]);
+        this.renderable.addAnimation ("walk", ["ghost_up.png", "ghost_down.png"]);
         // dead anim
-        this.renderable.addAnimation ("dead", ["enemies/ghost_dead"]);
+        this.renderable.addAnimation ("dead", ["ghost_dead.png"]);
 
         // set default anim and pos
         this.renderable.setCurrentAnimation("walk");

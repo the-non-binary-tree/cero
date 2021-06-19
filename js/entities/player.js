@@ -28,15 +28,15 @@ game.PlayerEntity = me.Entity.extend({
 
         // set a renderable
         this.renderable = game.texture.createAnimationFromName([
-            "character/redSquare1", "character/redSquare2", "character/redSquare3",
-            "character/redSquare4",
+            "redSquare1.png", "redSquare2.png", "redSquare3.png",
+            "redSquare4.png",
         ]);
 
         // mvmt anim
-        this.renderable.addAnimation ("walk",  [{ name: "character/redSquare1", delay: 200 }, { name: "character/redSquare2", delay: 200 }, { name: "character/redSquare3", delay: 200 }, { name: "character/redSquare4", delay: 200 }, { name: "character/redSquare3", delay: 200 }, { name: "character/redSquare2", delay: 200 } ]);
+        this.renderable.addAnimation ("walk",  [{ name: "redSquare1.png", delay: 200 }, { name: "redSquare2.png", delay: 200 }, { name: "redSquare3.png", delay: 200 }, { name: "redSquare4.png", delay: 200 }, { name: "redSquare3.png", delay: 200 }, { name: "redSquare2.png", delay: 200 } ]);
         this.renderable.setCurrentAnimation("walk");
 
-        this.anchorPoint.set(.5, 0.4);
+        this.anchorPoint.set(.5, 2.1);
     },
 
     // position update

@@ -21,17 +21,7 @@
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Coins"/>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
- <objectgroup color="#ff0000" id="9" name="Flies">
-  <object id="4" name="FlyEntity" x="910" y="490" width="560" height="35">
-   <properties>
-    <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="35"/>
-    <property name="framewidth" value="70"/>
-    <property name="gravity" value="0"/>
-    <property name="velX" value="2"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup color="#ff0000" id="9" name="Flies"/>
  <objectgroup id="10" name="Collision">
   <object id="7" x="-1" y="980" width="421" height="70"/>
   <object id="11" x="2589.69" y="630.67" width="207.051" height="41.0375"/>
@@ -51,7 +41,7 @@
   <object id="28" x="3.89304" y="521.727" width="132.466" height="139.781"/>
   <object id="31" x="420" y="980" width="70" height="35"/>
   <object id="38" x="489.967" y="979.809" width="70" height="70"/>
-  <object id="46" x="1317.55" y="559.03" width="587.479" height="70"/>
+  <object id="46" x="859.868" y="559.03" width="1045.16" height="70"/>
   <object id="49" x="2345" y="271.58" width="454.457" height="41.0375"/>
   <object id="50" x="2137.5" y="413.639" width="207.051" height="41.0375"/>
   <object id="51" x="2320.35" y="450.065" width="207.051" height="41.0375" rotation="269.512"/>

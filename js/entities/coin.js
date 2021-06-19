@@ -5,7 +5,7 @@ game.CoinEntity = me.Sprite.extend({
             x, y ,
             Object.assign({
                 image: game.texture,
-                region : "collectables/coin"
+                region : "coin.png"
             }, settings)
         ]);
 

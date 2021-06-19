@@ -26,11 +26,11 @@ game.HUD.FSControl = me.GUI_Object.extend({
     init: function(x, y) {
         this._super(me.GUI_Object, "init", [ x, y, {
             image: game.texture,
-            region : "UI/grow"
+            region : "grow.png"
         } ]);
 
         this.setOpacity(0.5);
-        this.anchorPoint.set(-1, 0.5);
+        this.anchorPoint.set(-2.2, 0.4);
     },
 
     // hover
@@ -47,11 +47,13 @@ game.HUD.FSControl = me.GUI_Object.extend({
         if (!me.device.isFullscreen) {
             me.device.requestFullscreen();
 
-            this.setRegion(game.texture.getRegion("UI/shrink"));
+            this.setRegion(game.texture.getRegion("shrink.png"));
+            this.anchorPoint.set(-2.2, 0.4);
         } else {
             me.device.exitFullscreen();
 
-            this.setRegion(game.texture.getRegion("UI/grow"));
+            this.setRegion(game.texture.getRegion("grow.png"));
+            this.anchorPoint.set(-2.2, 0.4);
         }
         return false;
     }
@@ -63,22 +65,14 @@ game.HUD.AudioControl = me.GUI_Object.extend({
     init: function(x, y) {
         this._super(me.GUI_Object, "init", [ x, y, {
             image: game.texture,
-            region : "UI/sound2"
+            region : "sound2.png"
         } ]);
         this.setOpacity(0.5);
 
         // default on
         this.isMute = false;
 
-        // set renderable
-        this.renderable = game.texture.createAnimationFromName([
-            "UI/sound2", "UI/sound3", "UI/sound4",
-        ]);
-
-        // sound anim
-        this.renderable.addAnimation ("sound",  [{ name: "UI/sound2", delay: 100 }, { name: "UI/sound3", delay: 100 }, { name: "UI/sound4", delay: 100 }]);
-        // set default anim
-        this.renderable.setCurrentAnimation("sound");
+        this.anchorPoint.set(.4, .4);
     },
 
     // hover
@@ -96,12 +90,14 @@ game.HUD.AudioControl = me.GUI_Object.extend({
             me.audio.unmuteAll();
             this.isMute = false;
 
-            this.setRegion(game.texture.getRegion("UI/sound3"));
+            this.setRegion(game.texture.getRegion("sound3.png"));
+            this.anchorPoint.set(.4, .4);
         } else {
             me.audio.muteAll();
             this.isMute = true;
 
-            this.setRegion(game.texture.getRegion("UI/sound1"));
+            this.setRegion(game.texture.getRegion("sound1.png"));
+            this.anchorPoint.set(.4, .4);
         }
         return false;
     }
