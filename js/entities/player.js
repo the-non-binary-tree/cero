@@ -5,8 +5,8 @@ game.PlayerEntity = me.Entity.extend({
         this.dying = false;
         this.mutipleJump = 1;
 
-        // walking & jumping speed
-        this.body.setMaxVelocity(5, 15);
+        // walking & jumping speed 5 15
+        this.body.setMaxVelocity(8, 20);
         this.body.setFriction(0.4, 0);
 
         // scrollable screen

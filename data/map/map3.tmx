@@ -15,7 +15,7 @@
    <properties>
     <property name="duration" value="150"/>
     <property name="fade" value="#fff"/>
-    <property name="to" value="map2"/>
+    <property name="to" value="map1.5"/>
    </properties>
   </object>
  </objectgroup>
