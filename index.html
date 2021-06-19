@@ -9,22 +9,43 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
-    <!-- Canvas placeholder -->
-    <div id="screen"></div>
+  <!-- Canvas placeholder -->
+  <div id="screen"></div>
 
-  
-  
-    <!-- melonJS Library -->
-    <script type="text/javascript" src="./melonjs.js"></script>
-  
-    <!-- Plugin(s) -->
-    <script type="text/javascript" src="debug/debugPanel.js"></script>
-  
-    <!-- Bootstrap -->
-    <script type="text/javascript">
-        me.device.onReady(function onReady() {
-            game.onload();
-        });
-    </script>
-  </body>
-  </html>
+  <!--Title Screen-->
+  <div id="title-screen">
+    <h1 id="ch1">Chapter 1: <span id="ch1-name">Envaleginia</span></h1>
+    <button class="btn1" id="begin-btn">Begin</button>
+  </div>
+
+  <input type="text" id="current-word" />
+
+
+  <!-- melonJS Library -->
+  <script type="text/javascript" src="./melonjs.js"></script>
+
+  <!-- Plugin(s) -->
+  <script type="text/javascript" src="debug/debugPanel.js"></script>
+
+  <!-- Game Scripts -->
+  <script type="text/javascript" src="js/game.js"></script>
+  <script type="text/javascript" src="js/resources.js"></script>
+
+  <script type="text/javascript" src="js/entities/player.js"></script>
+  <script type="text/javascript" src="js/entities/coin.js"></script>
+  <script type="text/javascript" src="js/entities/enemies.js"></script>
+  <script type="text/javascript" src="js/entities/HUD.js"></script>
+  <script type="text/javascript" src="js/entities/controls.js"></script>
+
+  <script type="text/javascript" src="js/screens/play.js"></script>
+
+  <script type="text/javascript" src="js/App.js"></script>
+
+  <!-- Bootstrap -->
+  <script type="text/javascript">
+    me.device.onReady(function onReady() {
+        game.onload();
+    });
+  </script>
+</body>
+</html>

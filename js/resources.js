@@ -7,7 +7,8 @@ game.resources = [
     { name: "tileset",         type:"image",   src: "data/img/tileset.png" },
     { name: "tileset1",         type:"image",   src: "data/img/tileset1.png" },
     { name: "tileset2",         type:"image",   src: "data/img/tileset2.png" },
-    { name: "background",      type:"image",   src: "data/img/background.png" },
+    { name: "tileset3",         type:"image",   src: "data/img/tileset3.png" },
+    { name: "white_bg",      type:"image",   src: "data/img/white_background.png" },
     { name: "clouds",          type:"image",   src: "data/img/clouds.png" },
 
     // Maps.
@@ -18,7 +19,8 @@ game.resources = [
     // Tilesets.
     { name: "tileset",         type: "tsx",    src: "data/map/tileset.json" },
     { name: "tileset1",         type: "tsx",    src: "data/map/tileset1.tsx" },
-    { name: "tileset2",         type: "tsx",    src: "data/map/tileset2.json" },
+    { name: "tileset2",         type: "tsx",    src: "data/map/tileset2.tsx" },
+    { name: "tileset3",         type: "tsx",    src: "data/map/tileset3.json" },
 
 
     // Background music.

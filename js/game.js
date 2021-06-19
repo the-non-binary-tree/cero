@@ -1,24 +1,23 @@
+//DC
+
 var game = {
     //global data
     data : {
-        // score
         score : 0,
         stress : 'VERY HIGH'
     },
 
-    //Initialize the application
+    // init app
     onload: function() {
-
-        // init the video
+        // init video
         if (!me.video.init(800, 600, {parent : "screen", scaleMethod : "flex-width", renderer : me.video.AUTO, preferWebGL1 : false, subPixel : false })) {
             alert("Your browser does not support HTML5 canvas.")
             return
         }
 
-        // initialize the "sound engine"
+        // init sound
         me.audio.init("mp3,ogg")
 
-        // set all ressources to be loaded
         me.loader.preload(game.resources, this.loaded.bind(this))
     },
 
@@ -26,12 +25,12 @@ var game = {
     //callback when everything is loaded
     loaded: function ()    {
 
-        // set the "Play/Ingame" Screen Object
+        // set screen objects
         me.state.set(me.state.PLAY, new game.PlayScreen())
         /*me.state.set(me.state.MENU, new game.TitleScreen());
         me.state.set(me.state.GAME_END, new game.EndTitleScreen());*/
 
-        // set the fade transition effect
+        // set fade transit
         me.state.transition("fade", "#FFFFFF", 250)
 
         // register our objects entity in the object pool
@@ -40,7 +39,7 @@ var game = {
         me.pool.register("FlyEntity", game.FlyEnemyEntity)
         me.pool.register("CoinEntity", game.CoinEntity)
 
-        // load the texture atlas file
+        // load texture atlas file
         // this will be used by object entities later
         game.texture = new me.video.renderer.Texture(
             me.loader.getJSON("texture"),

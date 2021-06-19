@@ -1,10 +1,11 @@
-game.PlayScreen = me.Stage.extend({
+// DC
 
+game.PlayScreen = me.Stage.extend({
     onResetEvent: function() {
       // load a level
         me.levelDirector.loadLevel("map1");
 
-        // reset score
+        // reset the score
         game.data.score = 0;
 
         // add our HUD to the game world
@@ -15,15 +16,20 @@ game.PlayScreen = me.Stage.extend({
 
         // music play
         me.audio.playTrack("dst-gameforest");
-        me.audio.unmuteAll();
+        me.audio./*un*/muteAll();
     },
 
     onDestroyEvent: function() {
 
-        // remove the HUD from world
+        // remove the HUD from the game world
         me.game.world.removeChild(this.HUD);
 
-        // stop music
+        // remove the joypad if initially added
+        if (this.virtualJoypad && me.game.world.hasChild(this.virtualJoypad)) {
+            me.game.world.removeChild(this.virtualJoypad);
+        }
+
+        // stop some music
         me.audio.stopTrack("dst-gameforest");
     }
 });

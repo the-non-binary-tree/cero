@@ -13,11 +13,11 @@
            {
             "animation":[
                    {
-                    "duration":100,
+                    "duration":200,
                     "tileid":9
                    }, 
                    {
-                    "duration":100,
+                    "duration":200,
                     "tileid":7
                    }],
             "id":9
