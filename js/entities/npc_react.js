@@ -7,6 +7,8 @@ game.NPCReactEntity = me.Entity.extend({
         this.body.gravityScale = 0;
         this.walkLeft = false;
         this.alwaysUpdate = false;
+
+        this.body.collisionType = me.collision.types.NPC_OBJECT;
     },
 
     onCollision : function () {

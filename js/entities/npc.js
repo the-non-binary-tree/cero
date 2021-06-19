@@ -5,6 +5,8 @@ game.NPCEntity = me.Entity.extend({
 
         this._super(me.Entity, "init", [x, y , settings]);
 
+        this.body.collisionType = me.collision.types.NPC_OBJECT;
+
         // adjust size to fit sprite
         settings.width = settings.framewidth;
         settings.height = settings.frameheight;
