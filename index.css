@@ -19,7 +19,7 @@ html{
 body {
   background-color: white;
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Indie Flower';
   transition: 1s ease;
 
   /* allow mouse dragging. */
@@ -33,12 +33,13 @@ body {
   -ms-touch-action: none;
   touch-action: none;
 
-  /* let canvas hit edges of browser viewport. */
+  /* let canvas take up full screen */
   margin: 0;
+
+  transition: 1s ease;
 }
 
 h1 {
-  font-family: 'Indie Flower';
   font-size: 45px;
   font-weight: normal;
   color: white;
@@ -66,7 +67,6 @@ button {
 }
 
 .btn1 {
-  font-family: 'Indie Flower';
   font-size: 30px;
   padding: 0;
   background-color: black;
@@ -79,30 +79,73 @@ button {
   cursor: pointer;
 }
 
+.fadeIn {
+  animation: fadeIn 1s ease-in 0s 1 forwards;
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in 0s 1 forwards;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 100%;
   }
 }
 
+@keyframes fadeOut {
+  to {
+    opacity: 0%;
+  }
+}
+
 #title-screen {
-  z-index: 500;
   width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  z-index: 10;
   background-color: black;
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: 1s ease;
+  z-index: 50;
 }
 
 #screen canvas {
   margin: 0px;
   z-index: 0;
+}
+
+#speech-container {
+  width: 40vw;
+  height: fit-content;
+  padding: 30px 30px 20px 30px;
+  min-height: 100px;
+  position: absolute;
+  top: 5%;
+  left: calc(30vw);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: 1s ease;
+  z-index: 20;
+  opacity: 0%;
+}
+
+#ok-btn {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  background-color: transparent;
+  opacity: 100%;
+  animation: none;
 }

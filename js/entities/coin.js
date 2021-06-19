@@ -1,4 +1,3 @@
-// DC
 game.CoinEntity = me.Sprite.extend({
     
     init: function (x, y, settings) {
