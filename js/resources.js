@@ -5,16 +5,20 @@ game.resources = [
      * { name: "example", type:"image", src: "data/img/example.png" },
      */
     { name: "tileset",         type:"image",   src: "data/img/tileset.png" },
+    { name: "tileset1",         type:"image",   src: "data/img/tileset1.png" },
+    { name: "tileset2",         type:"image",   src: "data/img/tileset2.png" },
     { name: "background",      type:"image",   src: "data/img/background.png" },
     { name: "clouds",          type:"image",   src: "data/img/clouds.png" },
 
-    // Maps
+    // Maps.
     { name: "map1",            type: "tmx",    src: "data/map/map1.tmx" },
     { name: "map2",            type: "tmx",    src: "data/map/map2.json" },
 
 
-    // Tilesets
+    // Tilesets.
     { name: "tileset",         type: "tsx",    src: "data/map/tileset.json" },
+    { name: "tileset1",         type: "tsx",    src: "data/map/tileset1.tsx" },
+    { name: "tileset2",         type: "tsx",    src: "data/map/tileset2.json" },
 
 
     // Background music.
