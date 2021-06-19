@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="15" nextobjectid="54">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="17" nextobjectid="55">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -20,7 +20,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="52" name="CoinEntity" x="765.03" y="816.825" width="34.9363" height="35">
+  <object id="52" name="CoinEntity" x="652.88" y="375.023" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="47"/>
@@ -31,7 +31,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes">
-  <object id="4" name="SlimeEntity" x="913.398" y="933.5" width="124.996" height="35">
+  <object id="4" name="SlimeEntity" x="974.571" y="926.703" width="124.996" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
@@ -84,5 +84,15 @@
   <object id="50" x="2660.58" y="526.034" width="70" height="61.8774"/>
   <object id="51" x="2730.73" y="455.881" width="70" height="61.8774"/>
  </objectgroup>
- <objectgroup id="14" name="NPC"/>
+ <objectgroup id="14" name="NPC">
+  <object id="54" name="TeethEntity" x="559.422" y="923.876" width="124.996" height="35">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="35"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

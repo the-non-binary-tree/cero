@@ -51,7 +51,7 @@ var game = {
         // register our objects entity in the object pool
         me.pool.register("mainPlayer", game.PlayerEntity)
         me.pool.register("SlimeEntity", game.SlimeEnemyEntity)
-        me.pool.register("GlyEntity", game.FlyEnemyEntity)
+        me.pool.register("FlyEntity", game.FlyEnemyEntity)
         me.pool.register("CoinEntity", game.CoinEntity)
         me.pool.register("TeethEntity", game.TeethEntity)
 

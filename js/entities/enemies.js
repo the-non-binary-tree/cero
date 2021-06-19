@@ -106,7 +106,7 @@ game.SlimeEnemyEntity = game.PathEnemyEntity.extend({
 });
 
 // flying ghost 
-game.GlyEnemyEntity = game.PathEnemyEntity.extend({
+game.FlyEnemyEntity = game.PathEnemyEntity.extend({
     init: function (x, y, settings) {
         this._super(game.PathEnemyEntity, "init", [x, y, settings]);
 
