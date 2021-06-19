@@ -4,18 +4,8 @@
  "infinite":false,
  "layers":[
         {
-         "id":11,
-         "image":"..\/img\/white_background.png",
-         "name":"Background",
-         "opacity":1,
-         "type":"imagelayer",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "compression":"zlib",
-         "data":"eJzt0TEKwCAQRFE9lgSrXMrjp7FJsAqIDLzXDGy18EsBAABWRj39AX\/olkm3TLpl0i2Tbpl0y3TX97a519z+ucNuDwqcBMY=",
+         "data":"eJzt0TEKgDAQRNFs4wUkhxGxEsmVPL4pYhGJIGJwB\/5rBrLNZicEAAAAAC27\/b0B3qA3TfSmid400ZsmetNEb8+N+VbRyb1Wq3MqOZdcLu9netm\/p8HqTDk3a8965dfu9vf0twMv1gd0",
          "encoding":"base64",
          "height":30,
          "id":10,
@@ -93,139 +83,7 @@
          "draworder":"topdown",
          "id":5,
          "name":"slimes",
-         "objects":[
-                {
-                 "height":35,
-                 "id":5,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":840,
-                 "x":910,
-                 "y":875
-                }, 
-                {
-                 "height":35,
-                 "id":6,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":210,
-                 "x":700,
-                 "y":945
-                }, 
-                {
-                 "height":35,
-                 "id":7,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":700,
-                 "x":980,
-                 "y":805
-                }, 
-                {
-                 "height":35,
-                 "id":8,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":560,
-                 "x":1050,
-                 "y":735
-                }, 
-                {
-                 "height":35,
-                 "id":9,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":420,
-                 "x":1120,
-                 "y":665
-                }, 
-                {
-                 "height":35,
-                 "id":10,
-                 "name":"SlimeEntity",
-                 "properties":[
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"55"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":280,
-                 "x":1190,
-                 "y":595
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -237,150 +95,7 @@
          "draworder":"topdown",
          "id":6,
          "name":"coins",
-         "objects":[
-                {
-                 "height":35,
-                 "id":11,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":525,
-                 "y":770
-                }, 
-                {
-                 "height":35,
-                 "id":12,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":490,
-                 "y":770
-                }, 
-                {
-                 "height":35,
-                 "id":13,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1225,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":14,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1260,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":15,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1295,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":16,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1330,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":17,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1365,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":18,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1400,
-                 "y":525
-                }, 
-                {
-                 "height":35,
-                 "id":19,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1260,
-                 "y":665
-                }, 
-                {
-                 "height":35,
-                 "id":20,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1400,
-                 "y":735
-                }, 
-                {
-                 "height":35,
-                 "id":21,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1295,
-                 "y":875
-                }, 
-                {
-                 "height":35,
-                 "id":22,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1750,
-                 "y":945
-                }, 
-                {
-                 "height":35,
-                 "id":39,
-                 "name":"CoinEntity",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":35,
-                 "x":1295,
-                 "y":455
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -392,81 +107,7 @@
          "draworder":"topdown",
          "id":8,
          "name":"flies",
-         "objects":[
-                {
-                 "height":35,
-                 "id":23,
-                 "name":"FlyEntity",
-                 "properties":[
-                        {
-                         "name":"animationspeed",
-                         "type":"string",
-                         "value":"200"
-                        }, 
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"70"
-                        }, 
-                        {
-                         "name":"gravity",
-                         "type":"string",
-                         "value":"0"
-                        }, 
-                        {
-                         "name":"velX",
-                         "type":"string",
-                         "value":"2"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":210,
-                 "x":420,
-                 "y":840
-                }, 
-                {
-                 "height":35,
-                 "id":24,
-                 "name":"FlyEntity",
-                 "properties":[
-                        {
-                         "name":"animationspeed",
-                         "type":"string",
-                         "value":"200"
-                        }, 
-                        {
-                         "name":"frameheight",
-                         "type":"string",
-                         "value":"35"
-                        }, 
-                        {
-                         "name":"framewidth",
-                         "type":"string",
-                         "value":"70"
-                        }, 
-                        {
-                         "name":"gravity",
-                         "type":"string",
-                         "value":"0"
-                        }, 
-                        {
-                         "name":"velX",
-                         "type":"string",
-                         "value":"2"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":700,
-                 "x":980,
-                 "y":385
-                }],
+         "objects":[],
          "offsetx":-34.1358024691357,
          "offsety":5.93827160493828,
          "opacity":1,
@@ -481,128 +122,6 @@
          "id":9,
          "name":"collision",
          "objects":[
-                {
-                 "height":70,
-                 "id":25,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":352,
-                 "x":-1,
-                 "y":980
-                }, 
-                {
-                 "height":70,
-                 "id":26,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":70,
-                 "x":420,
-                 "y":910
-                }, 
-                {
-                 "height":70,
-                 "id":27,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":70,
-                 "x":560,
-                 "y":910
-                }, 
-                {
-                 "height":70,
-                 "id":28,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1225,
-                 "x":700,
-                 "y":980
-                }, 
-                {
-                 "height":0,
-                 "id":29,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":840,
-                         "y":0
-                        }],
-                 "properties":[
-                        {
-                         "name":"platform",
-                         "type":"string",
-                         "value":"true"
-                        }],
-                 "rotation":0,
-                 "type":"platform",
-                 "visible":true,
-                 "width":0,
-                 "x":910,
-                 "y":910
-                }, 
-                {
-                 "height":0,
-                 "id":30,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":210,
-                         "y":0
-                        }],
-                 "properties":[
-                        {
-                         "name":"platform",
-                         "type":"string",
-                         "value":"true"
-                        }],
-                 "rotation":0,
-                 "type":"platform",
-                 "visible":true,
-                 "width":0,
-                 "x":1225,
-                 "y":560
-                }, 
-                {
-                 "height":0,
-                 "id":31,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":280,
-                         "y":0
-                        }],
-                 "properties":[
-                        {
-                         "name":"platform",
-                         "type":"string",
-                         "value":"true"
-                        }],
-                 "rotation":0,
-                 "type":"platform",
-                 "visible":true,
-                 "width":0,
-                 "x":1190,
-                 "y":630
-                }, 
                 {
                  "height":0,
                  "id":32,
@@ -631,58 +150,6 @@
                 }, 
                 {
                  "height":0,
-                 "id":33,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":560,
-                         "y":0
-                        }],
-                 "properties":[
-                        {
-                         "name":"platform",
-                         "type":"string",
-                         "value":"true"
-                        }],
-                 "rotation":0,
-                 "type":"platform",
-                 "visible":true,
-                 "width":0,
-                 "x":1050,
-                 "y":770
-                }, 
-                {
-                 "height":0,
-                 "id":34,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":700,
-                         "y":0
-                        }],
-                 "properties":[
-                        {
-                         "name":"platform",
-                         "type":"string",
-                         "value":"true"
-                        }],
-                 "rotation":0,
-                 "type":"platform",
-                 "visible":true,
-                 "width":0,
-                 "x":980,
-                 "y":840
-                }, 
-                {
-                 "height":0,
                  "id":35,
                  "name":"",
                  "polyline":[
@@ -692,14 +159,14 @@
                         }, 
                         {
                          "x":0,
-                         "y":516.505757307352
+                         "y":979.05719763657
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
                  "x":1,
-                 "y":464.494242692648
+                 "y":1.94280236342991
                 }, 
                 {
                  "height":0,
@@ -738,14 +205,14 @@
                         }, 
                         {
                          "x":0,
-                         "y":-350
+                         "y":-1041.35802469136
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
                  "x":1925,
-                 "y":980
+                 "y":1045.84362139918
                 }],
          "opacity":1,
          "type":"objectgroup",
