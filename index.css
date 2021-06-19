@@ -49,5 +49,54 @@ button {
   color: rgb(0, 0, 0);
 }
 
+#ch1 {
+  opacity: 0%;
+  animation: fadeIn 2s ease-in 0s 1 forwards;
+}
 
+#ch1-name {
+  opacity: 0%;
+  animation: fadeIn 3s ease-in 1s 1 forwards;
+}
+
+.btn1 {
+  font-family: 'Indie Flower';
+  font-size: 30px;
+  padding: 0;
+  background-color: black;
+  color: white;
+  opacity: 0%;
+  animation: fadeIn 1s ease-in 4s 1 forwards;
+}
+.btn1:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 100%;
+  }
+}
+
+#title-screen {
+  z-index: 500;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 10;
+  background-color: black;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+}
+
+#screen canvas {
+  margin: 0px;
+  z-index: 0;
 }

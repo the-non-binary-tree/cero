@@ -653,6 +653,10 @@
         {
          "firstgid":1,
          "source":"tileset.tsx"
+        },
+        {
+         "firstgid":1,
+         "source":"tileset1.tsx"
         }],
  "tilewidth":35,
  "type":"map",
