@@ -10,7 +10,7 @@
   </data>
  </layer>
  <objectgroup color="#0433ff" id="14" name="NPC">
-  <object id="68" name="TeethmanEntity" x="1855.76" y="1598.1" width="69.9271" height="152.247">
+  <object id="68" name="TeethmanEntity" x="1855.76" y="1583.67" width="69.9271" height="152.247">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="flip" value="true"/>
@@ -28,19 +28,25 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
+    <property name="message" value="No? You must be forgetting something. There’s always something to worry about. Think about it."/>
+    <property name="n" value="Teethman"/>
     <property name="velX" value="2"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup color="#00ff00" id="5" name="Player">
-  <object id="17" name="me.LevelEntity" x="-4.26401" y="1008.08" width="16.4831" height="564.757">
+  <object id="17" name="me.LevelEntity" x="-4.26401" y="1008.08" width="16.4831" height="740.015">
    <properties>
     <property name="duration" value="150"/>
     <property name="fade" value="#fff"/>
-    <property name="to" value="map2"/>
+    <property name="to" value="map2.6"/>
    </properties>
   </object>
-  <object id="67" name="mainPlayer" x="2672.79" y="1319.8" width="108.466" height="88"/>
+  <object id="67" name="mainPlayer" x="2672.79" y="1319.8" width="108.466" height="88">
+   <properties>
+    <property name="flip" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Coins"/>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>

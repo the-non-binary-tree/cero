@@ -10,18 +10,6 @@ var game = {
         messageNum: 0,
         messages: [
             {
-                message: '\"It is not doubt but certainty that drives you mad.\" </br> - Nietzche',
-                name: '',
-            },
-            {
-                message: 'Good morning _____, my heart is pounding. Something dreadful is going to happen today, isn’t it?',
-                name: '',
-            },
-            {
-                message: 'No? You must be forgetting something. There’s always something to worry about. Think about it.',
-                name: 'Teethman',
-            },
-            {
                 message: 'Ah yes, that’s what you’ve been forgetting! You’re going to have to face your toxic family at Thanksgiving next year. Why don’t you worry about it until then',
                 name: 'Teethman',
             },

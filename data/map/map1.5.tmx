@@ -17,7 +17,7 @@
    <properties>
     <property name="duration" value="150"/>
     <property name="fade" value="#fff"/>
-    <property name="to" value="map3"/>
+    <property name="to" value="map1.6"/>
    </properties>
   </object>
   <object id="53" name="me.LevelEntity" x="1388.16" y="531.867" width="11.2328" height="454.082">

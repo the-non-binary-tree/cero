@@ -14,10 +14,11 @@ game.resources = [
     // Maps
     { name: "map1",            type: "tmx",    src: "data/map/map1.tmx" },
     { name: "map1.5",            type: "tmx",    src: "data/map/map1.5.tmx" },
+    { name: "map1.6",            type: "tmx",    src: "data/map/map1.6.tmx" },
     { name: "map2",            type: "tmx",    src: "data/map/map2.tmx" },
     { name: "map2.5",            type: "tmx",    src: "data/map/map2.5.tmx" },
-    { name: "map3",            type: "tmx",    src: "data/map/map3.tmx" },
-
+    { name: "map2.6",            type: "tmx",    src: "data/map/map2.6.tmx" },
+    
 
     // Tilesets
     { name: "tileset",         type: "tsx",    src: "data/map/tileset.json" },

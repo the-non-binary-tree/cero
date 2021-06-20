@@ -37,7 +37,7 @@ game.TeethmanEntity = game.NPCEntity.extend({
         //flip if player facing left
         if (settings.flip === true) {
             this.renderable.flipX(true);
-            console.log(settings.flip)
+            console.log(settings.flip);
         } else {
             this.renderable.flipX(false);
         }

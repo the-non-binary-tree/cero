@@ -35,6 +35,13 @@ game.PlayerEntity = me.Entity.extend({
         this.renderable.addAnimation ("walk",  [{ name: "redSquare1.png", delay: 200 }, { name: "redSquare2.png", delay: 200 }, { name: "redSquare3.png", delay: 200 }, { name: "redSquare4.png", delay: 200 }, { name: "redSquare3.png", delay: 200 }, { name: "redSquare2.png", delay: 200 } ]);
         this.renderable.setCurrentAnimation("walk");
 
+        //flip if player starting from right
+        if (settings.flip === true) {
+            this.renderable.flipX(true);
+        } else {
+            this.render;
+        }
+
         this.anchorPoint.set(.5, 2.1);
     },
 

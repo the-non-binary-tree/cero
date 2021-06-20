@@ -24,7 +24,11 @@
   </object>
  </objectgroup>
  <objectgroup color="#00ff00" id="5" name="Player">
-  <object id="16" name="mainPlayer" x="171.411" y="889.327" width="108.466" height="88"/>
+  <object id="16" name="mainPlayer" x="171.411" y="889.327" width="108.466" height="88">
+   <properties>
+    <property name="flip" type="bool" value="false"/>
+   </properties>
+  </object>
   <object id="17" name="me.LevelEntity" x="2785.82" y="0.35643" width="14.6726" height="446.208">
    <properties>
     <property name="duration" value="150"/>
