@@ -43,8 +43,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="68" name="CoinEntity" x="2187.46" y="121.356" width="34.9363" height="35">
+ <objectgroup color="#ffff00" id="6" name="Items">
+  <object id="68" name="HealthPotionEntity" x="2187.46" y="121.356" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="30"/>
@@ -53,7 +53,7 @@
     <property name="velX" value="2"/>
    </properties>
   </object>
-  <object id="70" name="CoinEntity" x="1797.23" y="468.495" width="34.9363" height="35">
+  <object id="70" name="HealthPotionEntity" x="1797.23" y="468.495" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="30"/>
