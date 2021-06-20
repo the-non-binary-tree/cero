@@ -49,6 +49,7 @@ var game = {
         me.pool.register("SlimePotionEntity", game.SlimePotionEntity)
         me.pool.register("GoldPotionEntity", game.GoldPotionEntity)
         me.pool.register("BrokenSwordEntity", game.BrokenSwordEntity)
+        me.pool.register("Sign1Entity", game.Sign1Entity)
         
         // load texture atlas file
         // this will be used by object entities later

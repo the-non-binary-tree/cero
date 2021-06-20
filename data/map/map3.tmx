@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="66">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="70">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -10,22 +10,48 @@
   </data>
  </layer>
  <objectgroup color="#0433ff" id="14" name="NPC"/>
- <objectgroup color="#ff9300" id="15" name="NPCReact"/>
+ <objectgroup color="#ff9300" id="15" name="NPCReact">
+  <object id="68" name="NPCReactEntity" x="-8.89595" y="4638.66" width="57.2696" height="443.302">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="35"/>
+    <property name="gravity" value="0"/>
+    <property name="message" value="...to be continued."/>
+    <property name="n" value=" "/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+  <object id="69" name="NPCReactEntity" x="1359.16" y="4628.03" width="57.2696" height="443.302">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="35"/>
+    <property name="gravity" value="0"/>
+    <property name="message" value="...to be continued."/>
+    <property name="n" value=" "/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#00ff00" id="5" name="Player">
   <object id="16" name="mainPlayer" x="1260.55" y="599.48" width="108.466" height="88">
    <properties>
     <property name="flip" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="65" name="me.LevelEntity" x="1385.04" y="4280.55" width="14.6726" height="809.322">
+ </objectgroup>
+ <objectgroup color="#ffff00" id="6" name="Items">
+  <object id="67" name="Sign1Entity" x="942.994" y="4938.78" width="166.825" height="133.917">
    <properties>
-    <property name="duration" value="150"/>
-    <property name="fade" value="#fff"/>
-    <property name="to" value="map4"/>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="160"/>
+    <property name="framewidth" value="160"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Items"/>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies"/>
  <objectgroup id="10" name="Collision">

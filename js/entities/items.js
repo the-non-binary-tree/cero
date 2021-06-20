@@ -46,7 +46,7 @@ game.HealthPotionEntity = game.ItemEntity.extend({
         document.querySelector('#stress').textContent = game.data.stress;
 
         // display item name
-        game.data.zeugma = 'Health Potion - Pretty self explanatory if you ask me.'
+        game.data.zeugma = 'Health Potion - Potion that boosts your health. Pretty self explanatory if you ask me.'
         document.querySelector('#zeugma').textContent = game.data.zeugma;
 
         // delete object
@@ -191,4 +191,21 @@ game.BrokenSwordEntity = game.ItemEntity.extend({
 
         return false;
     }
+});
+
+// sign 1 - not collectable
+game.Sign1Entity = game.ItemEntity.extend({
+    init: function (x, y, settings) {
+        this._super(game.ItemEntity, "init", [x, y, settings]);
+
+        // set renderable
+        this.renderable = game.texture0.createAnimationFromName([
+            "sign1.png", 
+        ]);
+
+        this.renderable.addAnimation ("be", ["sign1.png"]);
+
+        this.renderable.setCurrentAnimation("be");
+        this.anchorPoint.set(0, 1.1);
+    },
 });

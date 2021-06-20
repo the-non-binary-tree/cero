@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="76">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="77">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -60,7 +60,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="ur mom is a mom"/>
+    <property name="message" value="I saw a MONSTER.  It was HUGE, with like super scary teeth and wings too.  I was watching from behind some boxes this far away and in a moment it was like BOOM.  I would say more,  but I don't wanna risk getting caught."/>
     <property name="n" value="Tomothy"/>
     <property name="velX" value="2"/>
    </properties>
@@ -87,7 +87,17 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Items"/>
+ <objectgroup color="#ffff00" id="6" name="Items">
+  <object id="76" name="WaterPotionEntity" x="313.877" y="1470.24" width="34.9363" height="35">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="30"/>
+    <property name="framewidth" value="30"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies">
   <object id="4" name="FlyEntity" x="910" y="490" width="560" height="35">
