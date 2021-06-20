@@ -17,6 +17,7 @@ game.resources = [
     { name: "map1.6",            type: "tmx",    src: "data/map/map1.6.tmx" },
     { name: "map2",            type: "tmx",    src: "data/map/map2.tmx" },
     { name: "map2.5",            type: "tmx",    src: "data/map/map2.5.tmx" },
+    { name: "map2.5.5",            type: "tmx",    src: "data/map/map2.5.5.tmx" },
     { name: "map2.6",            type: "tmx",    src: "data/map/map2.6.tmx" },
     { name: "map2.7",            type: "tmx",    src: "data/map/map2.7.tmx" },
     { name: "map2.8",            type: "tmx",    src: "data/map/map2.8.tmx" },
