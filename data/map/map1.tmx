@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="18" nextobjectid="61">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="18" nextobjectid="62">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -17,15 +17,8 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="velX" value="2"/>
-   </properties>
-  </object>
-  <object id="60" name="NPCReactEntity" x="2302.74" y="237.44" width="17.7919" height="586.029">
-   <properties>
-    <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="35"/>
-    <property name="framewidth" value="35"/>
-    <property name="gravity" value="0"/>
+    <property name="message" value="&quot;It is not doubt but certainty that drives you mad.&quot; &lt;/br&gt; - Nietzche"/>
+    <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>
   </object>

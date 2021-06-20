@@ -14,28 +14,28 @@ var game = {
                 name: '',
             },
             {
-                message: 'Double jump.',
+                message: 'Good morning _____, my heart is pounding. Something dreadful is going to happen today, isn’t it?',
                 name: '',
             },
             {
-                message: 'This is where you hand over all your money.',
+                message: 'No? You must be forgetting something. There’s always something to worry about. Think about it.',
                 name: 'Teethman',
             },
             {
-                message: 'We don\'t negotiate with terrorists.',
-                name: '',
+                message: 'Ah yes, that’s what you’ve been forgetting! You’re going to have to face your toxic family at Thanksgiving next year. Why don’t you worry about it until then',
+                name: 'Teethman',
             },
             {
-                message: '',
-                name: '',
+                message: 'You seem to be a little too carefree today. It’s making me nervous. Don’t you remember? If you let yourself enjoy the present, you’re not going to be prepared when something horrible happens in the future. Come on, think! What are you forgetting to worry about?',
+                name: 'Teethman',
             },
             {
-                message: '',
-                name: '',
+                message: 'There’s so much you have to face today. Your roommate seems to be in a bad mood, she just has that look. It must be because of you. What about that doctor’s appointment you have to make? You know your doctor hates you. Your to-do list is 50 items long. It’s too much, it’s TOO MUCH! Just go back to sleep.',
+                name: 'Teethman',
             },
             {
-                message: '',
-                name: '',
+                message: 'Your boss gave you a suggestion at work yesterday. Let’s replay how exactly it went. Did she sound annoyed? What if her non-annoyance was fake? She’s definitely going to fire you. Or if she doesn’t, she’s just pitying you. You can’t face her anymore. Just imagine what she’s saying behind your back. You can’t be too annoying, but you can’t be cold when talking to her either. Don’t ask me if I’m crazy, YOU’RE crazy. It’s your fault I’m like this.',
+                name: 'Teethman',
             },
             {
                 message: '',

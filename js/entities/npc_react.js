@@ -3,6 +3,7 @@ game.NPCReactEntity = me.Entity.extend({
     init: function (x, y, settings) {
 
         this._super(me.Entity, "init", [x, y , settings]);
+        this.settings = settings
 
         this.body.gravityScale = 0;
         this.walkLeft = false;
@@ -13,10 +14,10 @@ game.NPCReactEntity = me.Entity.extend({
 
     onCollision : function () {
         let text = document.querySelector('#text-container');
-        text.innerHTML = game.data.messages[game.data.messageNum].message;
+        text.innerHTML = this.settings.message;
         
         let name = document.querySelector('#npc-name');
-        name.textContent = game.data.messages[game.data.messageNum].name;
+        name.innerHTML = this.settings.n;
 
         let speechBox = document.querySelector('#speech-container');
         speechBox.classList.add('fadeIn');

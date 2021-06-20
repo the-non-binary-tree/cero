@@ -34,6 +34,14 @@ game.TeethmanEntity = game.NPCEntity.extend({
             this.renderable.animationspeed = settings.animationspeed;
         }
 
+        //flip if player facing left
+        if (settings.flip === true) {
+            this.renderable.flipX(true);
+            console.log(settings.flip)
+        } else {
+            this.renderable.flipX(false);
+        }
+
         // mvmt anim
         this.renderable.addAnimation ("blink", [{ name: "teethman1.png", delay: 3000 }, 
             { name: "teethman1.1.png", delay: 100 }, { name: "teethman1.2.png", delay: 100 },

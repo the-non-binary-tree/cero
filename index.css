@@ -177,7 +177,7 @@ button {
   width: 36vw;
   min-width: 200px;
   height: fit-content;
-  padding: 30px 30px 20px 30px;
+  padding: 10px 35px 40px 35px;
   min-height: 100px;
   background-color: rgb(0, 0, 0);
   color: white;
@@ -194,17 +194,19 @@ button {
   background-color: transparent;
   color: black;
   padding: 4px 10px 0px 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   border-radius: 5px;
   text-transform: uppercase;
 }
 
 #ok-btn {
-  width: 100%;
-  padding: 0;
+  position: relative;
+  left: 96%;
+  width: fit-content;
+  padding: 0 10px;
   font-size: 24px;
   margin: 0;
-  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: transparent;
   opacity: 100%;
   animation: none;
