@@ -26,7 +26,7 @@
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="font" value="permanent marker"/>
-    <property name="fontSize" value="36px"/>
+    <property name="fontSize" value="28px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>

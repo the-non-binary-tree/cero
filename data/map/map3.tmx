@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="71">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="72">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -11,9 +11,10 @@
  </layer>
  <objectgroup color="#0433ff" id="14" name="NPC"/>
  <objectgroup color="#ff9300" id="15" name="NPCReact">
-  <object id="68" name="NPCReactEntity" x="-8.89595" y="4638.66" width="57.2696" height="443.302">
+  <object id="68" name="NPCReactEntity" x="-27.1164" y="4638.66" width="57.2696" height="443.302">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="fontSize" value="36px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
@@ -22,9 +23,10 @@
     <property name="velX" value="2"/>
    </properties>
   </object>
-  <object id="69" name="NPCReactEntity" x="1359.16" y="4628.03" width="57.2696" height="443.302">
+  <object id="71" name="NPCReactEntity" x="1368.27" y="4634.1" width="57.2696" height="443.302">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="fontSize" value="36px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
@@ -53,7 +55,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes">
-  <object id="70" name="SlimeEntity" x="-1.76311" y="5038.68" width="1397.39" height="35">
+  <object id="70" name="SlimeEntity" x="-1.76311" y="5011.35" width="1397.39" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
