@@ -72,3 +72,55 @@ game.TeethmanEntity = game.NPCEntity.extend({
         return false;
     }
 });
+
+// npc num2
+game.JoeEntity = game.NPCEntity.extend({
+    init: function (x, y, settings) {
+        this._super(game.NPCEntity, "init", [x, y, settings]);
+
+        // set renderable
+        this.renderable = game.texture0.createAnimationFromName([
+            "joe1.png", "joe2.png", "joe3.png",
+            "joe4.png", "joe5.png", 
+        ]);
+        if (settings.animationspeed) {
+            this.renderable.animationspeed = settings.animationspeed;
+        }
+
+        //flip if player facing left
+        if (settings.flip === true) {
+            this.renderable.flipX(true);
+            console.log(settings.flip);
+        } else {
+            this.renderable.flipX(false);
+        }
+
+        // mvmt anim
+        this.renderable.addAnimation ("look", [{ name: "joe3.png", delay: 3000 }, 
+            { name: "joe4.png", delay: 100 }, { name: "joe5.png", delay: 1000 },
+            { name: "joe4.png", delay: 100 }, { name: "joe3.png", delay: 200 },
+            { name: "joe2.png", delay: 100 }, { name: "joe1.png", delay: 1000 },
+            { name: "joe2.png", delay: 100 }, { name: "joe3.png", delay: 100 },
+        ]);
+        this.renderable.addAnimation ("dead", ["joepng"]);
+
+        this.renderable.setCurrentAnimation("look");
+        this.anchorPoint.set(0.2, 1.1);
+    },
+
+    onCollision : function () {
+
+        // subtract health
+        game.data.health -= 5;
+        document.querySelector('#health').textContent = game.data.health;
+
+        // increase stress
+        game.data.stress += 5;
+        document.querySelector('#stress').textContent = game.data.stress;
+ 
+        //stop after 1 touch
+        this.body.setCollisionMask(me.collision.types.NO_OBJECT);
+
+        return false;
+    }
+});

@@ -46,6 +46,8 @@ game.resources = [
     // texturePacker
     { name: "texture",         type: "json",   src: "data/img/texture.json" },
     { name: "texture",         type: "image",  src: "data/img/texture.png" },
+    { name: "texture0",         type: "json",   src: "data/img/texture-0.json" },
+    { name: "texture0",         type: "image",  src: "data/img/texture-0.png" },
 
     //Bitmap font
     { name: "PressStart2P", type:"image", src: "data/fnt/PressStart2P.png" },

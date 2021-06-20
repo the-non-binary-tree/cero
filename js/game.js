@@ -43,6 +43,7 @@ var game = {
         me.pool.register("FlyEntity", game.FlyEnemyEntity)
         me.pool.register("CoinEntity", game.CoinEntity)
         me.pool.register("TeethmanEntity", game.TeethmanEntity)
+        me.pool.register("JoeEntity", game.JoeEntity)
         me.pool.register("NPCReactEntity", game.NPCReactEntity)
 
         // load texture atlas file
@@ -50,6 +51,10 @@ var game = {
         game.texture = new me.video.renderer.Texture(
             me.loader.getJSON("texture"),
             me.loader.getImage("texture")
+        )
+        game.texture0 = new me.video.renderer.Texture(
+            me.loader.getJSON("texture0"),
+            me.loader.getImage("texture0")
         )
 
         // switch to PLAY state

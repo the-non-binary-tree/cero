@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="74">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="75">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -20,6 +20,16 @@
     <property name="velX" value="2"/>
    </properties>
   </object>
+  <object id="74" name="JoeEntity" x="2680.87" y="1933.63" width="104.524" height="152.247">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="flip" value="true"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="60"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#ff9300" id="15" name="NPCReact">
   <object id="51" name="NPCReactEntity" x="2417.54" y="867.374" width="13.4703" height="886.768">
@@ -33,13 +43,13 @@
     <property name="velX" value="2"/>
    </properties>
   </object>
-  <object id="72" name="NPCReactEntity" x="2541.37" y="1707.97" width="13.4703" height="392.06">
+  <object id="72" name="NPCReactEntity" x="2418.71" y="1709.55" width="13.4703" height="392.06">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="Shhhh... wanna hear a secret? Here come closer for a second..."/>
+    <property name="message" value="Shhhh... wanna hear a secret? Here come closer for a second."/>
     <property name="n" value="Joe"/>
     <property name="velX" value="2"/>
    </properties>
@@ -50,7 +60,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="...ur MOM"/>
+    <property name="message" value="ur mom is a mom"/>
     <property name="n" value="Joe"/>
     <property name="velX" value="2"/>
    </properties>

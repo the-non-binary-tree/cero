@@ -1,0 +1,22 @@
+{"frames": [
+
+{
+	"filename": "teethman1.png",
+	"frame": {"x":2,"y":2,"w":83,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":6,"w":83,"h":151},
+	"sourceSize": {"w":90,"h":160},
+	"pivot": {"x":0.5,"y":1}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture-1.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"related_multi_packs": [ "texture-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:c84565f2a1731347016f11c83567a407:c21e93831f236b396d035ab886a01cdf:b7296fa688fdfff8aa6aef8c7f033ab5$"
+}
+}
