@@ -45,6 +45,10 @@ var game = {
         me.pool.register("JoeEntity", game.JoeEntity)
         me.pool.register("NPCReactEntity", game.NPCReactEntity)
         me.pool.register("HealthPotionEntity", game.HealthPotionEntity)
+        me.pool.register("WaterPotionEntity", game.WaterPotionEntity)
+        me.pool.register("SlimePotionEntity", game.SlimePotionEntity)
+        me.pool.register("GoldPotionEntity", game.GoldPotionEntity)
+        me.pool.register("BrokenSwordEntity", game.BrokenSwordEntity)
         
         // load texture atlas file
         // this will be used by object entities later
