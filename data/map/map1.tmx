@@ -38,7 +38,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="62" name="CoinEntity" x="2099.82" y="981.087" width="34.9363" height="35">
+  <object id="62" name="CoinEntity" x="2589.69" y="905.722" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="30"/>
@@ -73,7 +73,7 @@
  <objectgroup id="10" name="Collision">
   <object id="7" x="-1" y="980" width="421" height="70"/>
   <object id="8" x="646.005" y="980" width="1242.63" height="70"/>
-  <object id="11" x="1887.23" y="910" width="245.72" height="140"/>
+  <object id="11" x="1894.3" y="917.065" width="245.72" height="140"/>
   <object id="13" type="platform" x="386.553" y="349.749">
    <polyline points="0,0 70,0"/>
   </object>

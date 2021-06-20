@@ -8,6 +8,7 @@ game.CoinEntity = me.Sprite.extend({
                 region : "coin.png"
             }, settings)
         ]);
+        this.settings = settings;
 
         this.body = new me.Body(this, new me.Ellipse(this.width / 2, this.height / 2, this.width, this.height));
         this.body.collisionType = me.collision.types.COLLECTABLE_OBJECT;
@@ -24,6 +25,10 @@ game.CoinEntity = me.Sprite.extend({
         // subtract health
         game.data.health += 5;
         document.querySelector('#health').textContent = game.data.health;
+
+        // display item name
+        game.data.zeugma = 'Health Potion'
+        document.querySelector('#zeugma').textContent = game.data.zeugma;
 
         // delete object
         this.body.setCollisionMask(me.collision.types.NO_OBJECT);

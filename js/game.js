@@ -8,6 +8,7 @@ var game = {
         health: 100,
         rage : 0,
         magic: 15,
+        zeugma: '',
     },
 
     // init app
