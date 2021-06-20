@@ -55,7 +55,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes">
-  <object id="70" name="SlimeEntity" x="-1.76311" y="5011.35" width="1397.39" height="35">
+  <object id="70" name="SlimeEntity" x="-1.76311" y="5026.53" width="1397.39" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
