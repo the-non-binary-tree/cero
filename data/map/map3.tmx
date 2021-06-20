@@ -26,13 +26,13 @@
   <object id="13" type="platform" x="613.072" y="23.1134">
    <polyline points="0,0 70,0"/>
   </object>
-  <object id="15" x="0" y="3481">
-   <polyline points="0,0 0,-3394.59"/>
+  <object id="15" x="0" y="5101.86">
+   <polyline points="0,0 0,-5015.44"/>
   </object>
   <object id="27" x="464.295" y="5.31282" width="70" height="70"/>
   <object id="28" x="265.993" y="-63.6303" width="132.466" height="139.781"/>
-  <object id="57" x="1396.12" y="2035.01">
-   <polyline points="0,1449.32 0,-2536.31"/>
+  <object id="57" x="1396.12" y="3100.1">
+   <polyline points="0,2057.94 0,-3601.4"/>
   </object>
   <object id="58" x="384.668" y="769.977" width="223.273" height="80.9757"/>
   <object id="59" x="1.87983" y="5075.67" width="1403.32" height="12.3379"/>

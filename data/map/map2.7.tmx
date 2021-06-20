@@ -28,7 +28,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="You seem to be a little too carefree today. It’s making me nervous."/>
+    <property name="message" value="You seem to be a little too carefree today.  It’s making me nervous."/>
     <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>

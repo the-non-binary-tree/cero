@@ -22,35 +22,15 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff9300" id="15" name="NPCReact">
-  <object id="54" name="NPCReactEntity" x="701.248" y="161.786" width="13.4703" height="886.768">
+  <object id="54" name="NPCReactEntity" x="1173.42" y="170.218" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="font" value="permanent marker"/>
+    <property name="fontSize" value="36px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="Your boss gave you a suggestion at work yesterday. Let’s replay how exactly it went. Did she sound annoyed? What if her non-annoyance was fake? She’s definitely going to fire you. Or if she doesn’t, she’s just pitying you. You can’t face her anymore. Just imagine what she’s saying behind your back. You can’t be too annoying, but you can’t be cold when talking to her either. Don’t ask me if I’m crazy, YOU’RE crazy. It’s your fault I’m like this."/>
-    <property name="n" value=" "/>
-    <property name="velX" value="2"/>
-   </properties>
-  </object>
-  <object id="58" name="NPCReactEntity" x="688.376" y="775.901" width="13.4703" height="886.768">
-   <properties>
-    <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="35"/>
-    <property name="framewidth" value="35"/>
-    <property name="gravity" value="0"/>
-    <property name="message" value="What about that doctor’s appointment you have to make? You know your doctor hates you."/>
-    <property name="n" value=" "/>
-    <property name="velX" value="2"/>
-   </properties>
-  </object>
-  <object id="59" name="NPCReactEntity" x="401.144" y="820.406" width="13.4703" height="886.768">
-   <properties>
-    <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="35"/>
-    <property name="framewidth" value="35"/>
-    <property name="gravity" value="0"/>
-    <property name="message" value="Your to-do list is 50 items long. It’s too much, it’s TOO MUCH! Just go back to sleep."/>
+    <property name="message" value="Don’t ask me if I’m crazy, YOU’RE crazy.  It’s your fault I’m like this."/>
     <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>

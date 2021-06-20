@@ -19,6 +19,12 @@ game.NPCReactEntity = me.Entity.extend({
         let name = document.querySelector('#npc-name');
         name.innerHTML = this.settings.n;
 
+        if (this.settings.font) text.style.fontFamily = this.settings.font;
+        else text.style.fontFamily = 'Indie Flower';
+
+        if (this.settings.fontSize) text.style.fontSize = this.settings.fontSize;
+        else text.style.fontSize = '18px';
+
         let speechBox = document.querySelector('#speech-container');
         speechBox.classList.add('fadeIn');
         speechBox.classList.remove('fadeOut');

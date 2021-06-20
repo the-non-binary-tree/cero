@@ -17,7 +17,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="There’s so much you have to face today. Your roommate seems to be in a bad mood, she just has that look. It must be because of you. "/>
+    <property name="message" value="There’s so much you have to face today.  Your roommate seems to be in a bad mood, she just has that look.  It must be because of you. "/>
     <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>
@@ -39,7 +39,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="Your to-do list is 50 items long. It’s too much, it’s TOO MUCH! Just go back to sleep."/>
+    <property name="message" value="Your to-do list is 50 items long. It’s too much,  it'sTOO MUCH! Just go back to sleep."/>
     <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>
