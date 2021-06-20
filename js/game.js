@@ -10,10 +10,6 @@ var game = {
         messageNum: 0,
         messages: [
             {
-                message: 'You seem to be a little too carefree today. It’s making me nervous. Don’t you remember? If you let yourself enjoy the present, you’re not going to be prepared when something horrible happens in the future. Come on, think! What are you forgetting to worry about?',
-                name: 'Teethman',
-            },
-            {
                 message: 'There’s so much you have to face today. Your roommate seems to be in a bad mood, she just has that look. It must be because of you. What about that doctor’s appointment you have to make? You know your doctor hates you. Your to-do list is 50 items long. It’s too much, it’s TOO MUCH! Just go back to sleep.',
                 name: 'Teethman',
             },
