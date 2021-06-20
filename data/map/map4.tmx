@@ -28,7 +28,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins"/>
+ <objectgroup color="#ffff00" id="6" name="Items"/>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies"/>
  <objectgroup id="10" name="Collision">

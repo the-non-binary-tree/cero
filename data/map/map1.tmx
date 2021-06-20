@@ -37,8 +37,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="62" name="CoinEntity" x="2589.69" y="905.722" width="34.9363" height="35">
+ <objectgroup color="#ffff00" id="6" name="Items">
+  <object id="62" name="HealthPotionEntity" x="2589.69" y="905.722" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="30"/>

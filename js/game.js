@@ -45,7 +45,8 @@ var game = {
         me.pool.register("TeethmanEntity", game.TeethmanEntity)
         me.pool.register("JoeEntity", game.JoeEntity)
         me.pool.register("NPCReactEntity", game.NPCReactEntity)
-
+        me.pool.register("HealthPotionEntity", game.HealthPotionEntity)
+        
         // load texture atlas file
         // this will be used by object entities later
         game.texture = new me.video.renderer.Texture(

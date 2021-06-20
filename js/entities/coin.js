@@ -27,7 +27,7 @@ game.CoinEntity = me.Sprite.extend({
         document.querySelector('#health').textContent = game.data.health;
 
         // display item name
-        game.data.zeugma = 'Health Potion'
+        game.data.zeugma = 'Health Potion - Pretty self explanatory if you ask me.'
         document.querySelector('#zeugma').textContent = game.data.zeugma;
 
         // delete object

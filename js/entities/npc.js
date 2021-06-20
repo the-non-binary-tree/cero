@@ -97,8 +97,12 @@ game.JoeEntity = game.NPCEntity.extend({
 
         // mvmt anim
         this.renderable.addAnimation ("look", [{ name: "joe3.png", delay: 3000 }, 
-            { name: "joe4.png", delay: 100 }, { name: "joe5.png", delay: 1000 },
-            { name: "joe4.png", delay: 100 }, { name: "joe3.png", delay: 200 },
+            { name: "joe4.png", delay: 100 }, { name: "joe5.png", delay: 2000 },
+            { name: "joe4.png", delay: 100 }, { name: "joe3.png", delay: 100 },
+            { name: "joe2.png", delay: 100 }, { name: "joe1.png", delay: 1000 },
+            { name: "joe2.png", delay: 100 }, { name: "joe3.png", delay: 100 },
+            { name: "joe4.png", delay: 100 }, { name: "joe5.png", delay: 200 },
+            { name: "joe4.png", delay: 100 }, { name: "joe3.png", delay: 100 },
             { name: "joe2.png", delay: 100 }, { name: "joe1.png", delay: 1000 },
             { name: "joe2.png", delay: 100 }, { name: "joe3.png", delay: 100 },
         ]);

@@ -12,8 +12,8 @@
  <objectgroup color="#0433ff" id="14" name="NPC"/>
  <objectgroup color="#ff9300" id="15" name="NPCReact"/>
  <objectgroup color="#00ff00" id="5" name="Player">
-  <object id="16" name="mainPlayer" x="165.543" y="60.8063" width="108.466" height="88"/>
-  <object id="49" name="me.LevelEntity" x="-0.138273" y="-9.96192" width="11.2328" height="218.79">
+  <object id="16" name="mainPlayer" x="122.312" y="60.8063" width="108.466" height="88"/>
+  <object id="49" name="me.LevelEntity" x="-0.138273" y="-9.96192" width="11.2328" height="136.879">
    <properties>
     <property name="duration" value="150"/>
     <property name="fade" value="#fff"/>
@@ -21,7 +21,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins"/>
+ <objectgroup color="#ffff00" id="6" name="Items"/>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies"/>
  <objectgroup id="10" name="Collision">
@@ -30,7 +30,7 @@
    <polyline points="0,0 1396.61,0"/>
   </object>
   <object id="15" x="0" y="981">
-   <polyline points="0,0 0,-894.585"/>
+   <polyline points="0,0 0,-760.342"/>
   </object>
   <object id="27" x="179.815" y="310.355" width="70" height="70"/>
   <object id="54" x="139.222" y="841.735">
@@ -42,8 +42,8 @@
   <object id="56" x="1398.62" y="982.557">
    <polyline points="0,0 0,-977.798"/>
   </object>
-  <object id="58" type="platform" x="1.42109e-14" y="208.033">
-   <polyline points="0,0 137.259,0"/>
+  <object id="58" type="platform" x="-43.2309" y="208.033">
+   <polyline points="0,0 180.49,0"/>
   </object>
   <object id="63" x="632.307" y="488.284" width="70" height="70"/>
   <object id="59" type="platform" x="1.60026" y="385.662">
