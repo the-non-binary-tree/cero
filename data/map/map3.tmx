@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="70">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="71">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -52,7 +52,17 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" id="7" name="Slimes"/>
+ <objectgroup color="#ff0000" id="7" name="Slimes">
+  <object id="70" name="SlimeEntity" x="-1.76311" y="5038.68" width="1397.39" height="35">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="35"/>
+    <property name="framewidth" value="35"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#ff0000" id="9" name="Flies"/>
  <objectgroup id="10" name="Collision">
   <object id="8" x="557.123" y="700.426" width="848.63" height="12.3379"/>

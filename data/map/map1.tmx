@@ -48,17 +48,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" id="7" name="Slimes">
-  <object id="4" name="SlimeEntity" x="923.113" y="202.004" width="124.996" height="35">
-   <properties>
-    <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="35"/>
-    <property name="framewidth" value="35"/>
-    <property name="gravity" value="0"/>
-    <property name="velX" value="2"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies">
   <object id="53" name="FlyEntity" x="777.814" y="271.065" width="560" height="35">
    <properties>

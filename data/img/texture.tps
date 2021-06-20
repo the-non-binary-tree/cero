@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>json-array</string>
         <key>textureFileName</key>
-        <filename>texture.png</filename>
+        <filename>texture-{n}.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -88,9 +88,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>256</int>
+            <int>2048</int>
             <key>height</key>
-            <int>256</int>
+            <int>2048</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -132,7 +132,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>texture.json</filename>
+                <filename>texture-{n}.json</filename>
             </struct>
             <key>java</key>
             <struct type="DataFile">
@@ -141,7 +141,7 @@
             </struct>
         </map>
         <key>multiPack</key>
-        <false/>
+        <true/>
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
@@ -206,7 +206,9 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/character/redSquare1.png</key>
+            <key type="filename">assets/collectables/blue_orb.png</key>
+            <key type="filename">assets/collectables/green_orb.png</key>
+            <key type="filename">assets/collectables/yellow_orb.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
@@ -215,15 +217,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>19,24,38,48</rect>
+                <rect>11,11,23,23</rect>
                 <key>scale9Paddings</key>
-                <rect>19,24,38,48</rect>
+                <rect>11,11,23,23</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">assets/character/redSquare2.png</key>
-            <key type="filename">assets/character/redSquare3.png</key>
-            <key type="filename">assets/character/redSquare4.png</key>
+            <key type="filename">assets/collectables/broken_sword.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
@@ -232,9 +232,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>75,75,150,150</rect>
+                <rect>28,15,55,30</rect>
                 <key>scale9Paddings</key>
-                <rect>75,75,150,150</rect>
+                <rect>28,15,55,30</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -250,6 +250,21 @@
                 <rect>9,9,18,18</rect>
                 <key>scale9Paddings</key>
                 <rect>9,9,18,18</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">assets/collectables/sign1.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>40,40,80,80</rect>
+                <key>scale9Paddings</key>
+                <rect>40,40,80,80</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -318,6 +333,25 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">assets/npc/joe1.png</key>
+            <key type="filename">assets/npc/joe2.png</key>
+            <key type="filename">assets/npc/joe3.png</key>
+            <key type="filename">assets/npc/joe4.png</key>
+            <key type="filename">assets/npc/joe5.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>30,40,60,80</rect>
+                <key>scale9Paddings</key>
+                <rect>30,40,60,80</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">assets/npc/npc_react.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -333,6 +367,9 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">assets/npc/teethman1.1.png</key>
+            <key type="filename">assets/npc/teethman1.2.png</key>
+            <key type="filename">assets/npc/teethman1.3.png</key>
             <key type="filename">assets/npc/teethman1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
