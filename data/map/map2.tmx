@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="68">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="16" nextobjectid="72">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -27,7 +27,7 @@
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="Good morning _____, my heart is pounding. Something dreadful is going to happen today, isn’t it?"/>
+    <property name="message" value="Good morning friend, my heart is pounding. Something dreadful is going to happen today, isn’t it?"/>
     <property name="n" value="Teethman"/>
     <property name="velX" value="2"/>
    </properties>
@@ -43,10 +43,29 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins"/>
+ <objectgroup color="#ffff00" id="6" name="Coins">
+  <object id="68" name="CoinEntity" x="2187.46" y="121.356" width="34.9363" height="35">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="30"/>
+    <property name="framewidth" value="30"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+  <object id="70" name="CoinEntity" x="1797.23" y="468.495" width="34.9363" height="35">
+   <properties>
+    <property name="animationspeed" value="200"/>
+    <property name="frameheight" value="30"/>
+    <property name="framewidth" value="30"/>
+    <property name="gravity" value="0"/>
+    <property name="velX" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes"/>
  <objectgroup color="#ff0000" id="9" name="Flies">
-  <object id="4" name="FlyEntity" x="910" y="490" width="560" height="35">
+  <object id="71" name="FlyEntity" x="1031.95" y="425.402" width="560" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
@@ -74,8 +93,6 @@
   <object id="29" type="platform" x="1613.54" y="559.322">
    <polyline points="0,0 271.101,0"/>
   </object>
-  <object id="42" x="1200.87" y="94.4055" width="70" height="70"/>
-  <object id="46" x="1390.73" y="104.064" width="70" height="70"/>
   <object id="52" x="842.036" y="838.482" width="67.9347" height="138.827"/>
   <object id="53" x="1759.36" y="843.34" width="130.378" height="8.43997" rotation="89.9322"/>
   <object id="54" x="1753.04" y="842.138" width="851.121"/>

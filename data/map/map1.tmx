@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="18" nextobjectid="62">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#ffffff" nextlayerid="18" nextobjectid="63">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="253" source="tileset1.tsx"/>
  <tileset firstgid="353" source="tileset2.tsx"/>
@@ -38,11 +38,11 @@
   </object>
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="52" name="CoinEntity" x="661.457" y="167.047" width="34.9363" height="35">
+  <object id="62" name="CoinEntity" x="2099.82" y="981.087" width="34.9363" height="35">
    <properties>
     <property name="animationspeed" value="200"/>
-    <property name="frameheight" value="47"/>
-    <property name="framewidth" value="50"/>
+    <property name="frameheight" value="30"/>
+    <property name="framewidth" value="30"/>
     <property name="gravity" value="0"/>
     <property name="velX" value="2"/>
    </properties>
@@ -91,7 +91,7 @@
   <object id="31" x="420" y="980" width="70" height="35"/>
   <object id="38" x="489.967" y="979.809" width="162.196" height="70"/>
   <object id="41" x="979.167" y="910.565" width="70" height="61.8774"/>
-  <object id="47" x="2136.92" y="807.976" width="245.72" height="140"/>
+  <object id="47" x="2136.92" y="810.331" width="245.72" height="140"/>
   <object id="48" x="2345.25" y="667.67" width="451.927" height="140"/>
   <object id="49" x="2592.55" y="596.187" width="70" height="61.8774"/>
   <object id="50" x="2660.58" y="526.034" width="70" height="61.8774"/>

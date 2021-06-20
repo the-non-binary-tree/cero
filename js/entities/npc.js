@@ -50,11 +50,25 @@ game.TeethmanEntity = game.NPCEntity.extend({
             { name: "teethman1.2.png", delay: 100 }, { name: "teethman1.3.png", delay: 100 },
             { name: "teethman1.3.png", delay: 100 }, { name: "teethman1.1.png", delay: 100 },
         ]);
-        // dead anim
         this.renderable.addAnimation ("dead", ["teethman1.png"]);
 
-        // set default move & position
         this.renderable.setCurrentAnimation("blink");
         this.anchorPoint.set(0.2, 1.1);
+    },
+
+    onCollision : function () {
+
+        // subtract health
+        game.data.health -= 5;
+        document.querySelector('#health').textContent = game.data.health;
+
+        // increase stress
+        game.data.stress += 5;
+        document.querySelector('#stress').textContent = game.data.stress;
+ 
+        //stop after 1 touch
+        this.body.setCollisionMask(me.collision.types.NO_OBJECT);
+
+        return false;
     }
 });

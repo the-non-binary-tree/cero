@@ -4,15 +4,10 @@ var game = {
     //global data
     data : {
         score : 0,
-        stress : 'VERY HIGH',
+        stress : 15,
+        health: 100,
         rage : 0,
-        health: 0,
-        messageNum: 0,
-        messages: [{
-                message: 'Your boss gave you a suggestion at work yesterday. Let’s replay how exactly it went. Did she sound annoyed? What if her non-annoyance was fake? She’s definitely going to fire you. Or if she doesn’t, she’s just pitying you. You can’t face her anymore. Just imagine what she’s saying behind your back. You can’t be too annoying, but you can’t be cold when talking to her either. Don’t ask me if I’m crazy, YOU’RE crazy. It’s your fault I’m like this.',
-                name: 'Teethman',
-            },
-        ],
+        magic: 15,
     },
 
     // init app

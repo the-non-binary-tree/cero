@@ -25,6 +25,7 @@
   <object id="54" name="NPCReactEntity" x="1255.19" y="166.253" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="fontSize" value="19px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
@@ -36,6 +37,7 @@
   <object id="58" name="NPCReactEntity" x="746.451" y="166.118" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="fontSize" value="20px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
@@ -47,6 +49,7 @@
   <object id="59" name="NPCReactEntity" x="256.14" y="161.483" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
+    <property name="fontSize" value="21px"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>

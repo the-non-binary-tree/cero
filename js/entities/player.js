@@ -84,7 +84,6 @@ game.PlayerEntity = me.Entity.extend({
             // reset
             me.game.world.removeChild(this);
             me.game.viewport.fadeIn("#fff", 150, function(){
-                me.audio.play("die", false);
                 me.levelDirector.reloadLevel();
                 me.game.viewport.fadeOut("#fff", 150);
             });
@@ -161,7 +160,6 @@ game.PlayerEntity = me.Entity.extend({
 
             // flash the screen
             me.game.viewport.fadeIn("#FFFFFF", 75);
-            me.audio.play("die", false);
         }
     }
 });
