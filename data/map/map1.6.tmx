@@ -10,7 +10,11 @@
   </data>
  </layer>
  <objectgroup color="#00ff00" id="5" name="Player">
-  <object id="16" name="mainPlayer" x="2614.08" y="530.102" width="108.466" height="88"/>
+  <object id="16" name="mainPlayer" x="2651.85" y="531.361" width="108.466" height="88">
+   <properties>
+    <property name="flip" type="bool" value="true"/>
+   </properties>
+  </object>
   <object id="17" name="me.LevelEntity" x="2785.62" y="519.683" width="11.6919" height="100">
    <properties>
     <property name="duration" value="150"/>

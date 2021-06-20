@@ -10,10 +10,6 @@ var game = {
         messageNum: 0,
         messages: [
             {
-                message: 'Ah yes, that’s what you’ve been forgetting! You’re going to have to face your toxic family at Thanksgiving next year. Why don’t you worry about it until then',
-                name: 'Teethman',
-            },
-            {
                 message: 'You seem to be a little too carefree today. It’s making me nervous. Don’t you remember? If you let yourself enjoy the present, you’re not going to be prepared when something horrible happens in the future. Come on, think! What are you forgetting to worry about?',
                 name: 'Teethman',
             },
