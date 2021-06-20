@@ -10,7 +10,7 @@
   </data>
  </layer>
  <objectgroup color="#0433ff" id="14" name="NPC">
-  <object id="55" name="TeethmanEntity" x="1011.59" y="534.55" width="69.9271" height="152.247">
+  <object id="55" name="TeethmanEntity" x="334.798" y="545.718" width="69.9271" height="152.247">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="flip" value="true"/>
@@ -22,18 +22,18 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff9300" id="15" name="NPCReact">
-  <object id="54" name="NPCReactEntity" x="1255.19" y="166.253" width="13.4703" height="886.768">
+  <object id="54" name="NPCReactEntity" x="701.248" y="161.786" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
     <property name="framewidth" value="35"/>
     <property name="gravity" value="0"/>
-    <property name="message" value="There’s so much you have to face today. Your roommate seems to be in a bad mood, she just has that look. It must be because of you. "/>
+    <property name="message" value="Your boss gave you a suggestion at work yesterday. Let’s replay how exactly it went. Did she sound annoyed? What if her non-annoyance was fake? She’s definitely going to fire you. Or if she doesn’t, she’s just pitying you. You can’t face her anymore. Just imagine what she’s saying behind your back. You can’t be too annoying, but you can’t be cold when talking to her either. Don’t ask me if I’m crazy, YOU’RE crazy. It’s your fault I’m like this."/>
     <property name="n" value=" "/>
     <property name="velX" value="2"/>
    </properties>
   </object>
-  <object id="58" name="NPCReactEntity" x="746.451" y="166.118" width="13.4703" height="886.768">
+  <object id="58" name="NPCReactEntity" x="688.376" y="775.901" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
@@ -44,7 +44,7 @@
     <property name="velX" value="2"/>
    </properties>
   </object>
-  <object id="59" name="NPCReactEntity" x="401.144" y="161.483" width="13.4703" height="886.768">
+  <object id="59" name="NPCReactEntity" x="401.144" y="820.406" width="13.4703" height="886.768">
    <properties>
     <property name="animationspeed" value="200"/>
     <property name="frameheight" value="35"/>
@@ -66,7 +66,7 @@
    <properties>
     <property name="duration" value="150"/>
     <property name="fade" value="#fff"/>
-    <property name="to" value="map1.6"/>
+    <property name="to" value="map3"/>
    </properties>
   </object>
  </objectgroup>
