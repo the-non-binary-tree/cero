@@ -20,6 +20,7 @@ game.resources = [
     { name: "map2.6",            type: "tmx",    src: "data/map/map2.6.tmx" },
     { name: "map2.7",            type: "tmx",    src: "data/map/map2.7.tmx" },
     { name: "map2.8",            type: "tmx",    src: "data/map/map2.8.tmx" },
+    { name: "map2.9",            type: "tmx",    src: "data/map/map2.9.tmx" },
     
 
     // Tilesets

@@ -8,18 +8,9 @@ var game = {
         rage : 0,
         health: 0,
         messageNum: 0,
-        messages: [
-            {
-                message: 'There’s so much you have to face today. Your roommate seems to be in a bad mood, she just has that look. It must be because of you. What about that doctor’s appointment you have to make? You know your doctor hates you. Your to-do list is 50 items long. It’s too much, it’s TOO MUCH! Just go back to sleep.',
-                name: 'Teethman',
-            },
-            {
+        messages: [{
                 message: 'Your boss gave you a suggestion at work yesterday. Let’s replay how exactly it went. Did she sound annoyed? What if her non-annoyance was fake? She’s definitely going to fire you. Or if she doesn’t, she’s just pitying you. You can’t face her anymore. Just imagine what she’s saying behind your back. You can’t be too annoying, but you can’t be cold when talking to her either. Don’t ask me if I’m crazy, YOU’RE crazy. It’s your fault I’m like this.',
                 name: 'Teethman',
-            },
-            {
-                message: '',
-                name: '',
             },
         ],
     },
